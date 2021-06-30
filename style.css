@@ -1,0 +1,41 @@
+.menu {
+   
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+}
+
+.container {
+    
+}
+
+.appstoreimage {
+    height: 44px;
+    width: auto;
+}
+
+.microsoftimage {
+    height: 44px;
+    width: auto;
+}
+
+.left {
+    display: inline-block;
+    
+}
+
+.right {
+    display: inline;
+    
+}
+
+.rightimage {
+    width: 200px;
+    height: 200px;
+}
+
+.footer {
+    background-color: blueviolet;
+}
