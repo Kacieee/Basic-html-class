@@ -3,6 +3,29 @@
     height: 40px;
 }
 
+.menuitem {
+    text-decoration: none;
+    font-size: 17px;
+    color: inherit;
+    font-family: Calibre, Helvetica Neue, Segoe UI, Helvetica, Arial, Lucida Grande, sans-serif;
+}
+
+.blockelement {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.signinbutton {
+    background-color: #0a7cff;
+    border: none ;
+    border-radius: 24px;
+    color: white;
+    padding: 2px 20px ;
+    font-family: Calibre, Helvetica Neue, Segoe UI, Helvetica, Arial, Lucida Grande, sans-serif;
+    font-size: 19px;
+    height: 40px;
+}
 .appstoreimage {
     height: 44px;
     width: auto;
@@ -30,4 +53,6 @@
 
 .footer {
     background-color: blueviolet;
+    padding: 10px;
+    border-style: double;
 }
