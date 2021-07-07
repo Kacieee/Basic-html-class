@@ -6,7 +6,14 @@
 .header {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    position: sticky;
+    top: 0;
+    border-bottom: 1px solid lightgray;
+    background-color: #fafafa;
+    opacity: 0.9;
 }
 
 .logocontainer {
