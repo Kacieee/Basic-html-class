@@ -1,0 +1,185 @@
+.maincontainer {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    position: sticky;
+    top: 0;
+    border-bottom: 1px solid lightgray;
+    background-color: #fafafa;
+    opacity: 0.9;
+}
+
+.logocontainer {
+    width: 40px;
+    height: 40px;
+}
+
+.logo {
+    width: 100%;
+}
+
+.menuitem {
+    text-decoration: none;
+    font-size: 17px;
+    color: inherit;
+    font-family: Calibre, Helvetica Neue, Segoe UI, Helvetica, Arial, Lucida Grande, sans-serif;
+    margin-left: 30px;
+    
+}
+
+.menuitem:hover{
+    border-bottom-style: solid;
+}
+
+.titleheader {
+    margin-bottom: 20px;
+    background-image: linear-gradient(
+        83.84deg
+        , #0088FF -6.87%, #A033FF 26.54%, #FF5C87 58.58%);
+        color: transparent;
+        -webkit-background-clip: text;
+}
+
+.description {
+    margin-bottom: 20px;
+}
+
+.blockelement {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border: none;
+    background-color: #FFFFFF;
+    height: 36px;
+    border-radius: 10px;
+    width: 300px;
+    outline: none;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.signinbutton {
+    margin-bottom: 10px;
+    background-color: #0a7cff;
+    border: none ;
+    border-radius: 24px;
+    color: white;
+    padding: 2px 20px ;
+    font-family: Calibre, Helvetica Neue, Segoe UI, Helvetica, Arial, Lucida Grande, sans-serif;
+    font-size: 19px;
+    height: 40px;
+    width: auto;
+    display: inline;
+}
+
+.inputspan {
+    margin-bottom: 20px;
+}
+
+.password {
+    margin-left: 15px;
+    font-family: Calibre, Helvetica Neue, Segoe UI, Helvetica, Arial, Lucida Grande, sans-serif;
+    font-size: 12px;
+}
+
+.appstoreimage {
+    height: 42px;
+    width: auto;
+}
+
+.microsoftimage {
+    height: 42px;
+    width: auto;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.left {
+    display: inline-block;
+    margin-top: 20px;
+    width: 50%;
+}  
+
+.inner {
+    width: 60%;
+}
+
+.right {
+    display: inline;
+    width: 50%;
+}
+
+.rightimage {
+    width: 100%;
+    margin-left: 100px;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 80px;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.facebook {
+    font-size: 15px;
+}
+
+.apple {
+    margin-left: 6px;
+}
+
+.footerlinks {
+    display: inline;
+}
+
+.links {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.mobilemenucontainer {
+    display: none;
+}
+
+@media (max-width: 800px) {
+    .menucontainer {
+        display: none;
+    }
+
+    .mobilemenucontainer {
+        display: block;
+    }
+
+    .left {
+        width: 100%;
+    }
+
+    .right {
+        width: 60%;
+        text-align: center;
+    }
+
+    .inner {
+        width: 64%;
+        margin: 0 auto;
+    }
+}
+
+@media(max-width: 375px) {
+    .inner {
+        width: 95%;
+    }
+}
